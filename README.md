@@ -26,7 +26,7 @@
 ## Uninstall
 1. Run:
    ```
-   dpkg -r mcreator
-   rm -rfv ~/.mcreator/
-   rm -rfv /opt/mcreator/
+   sudo dpkg -r mcreator
+   sudo rm -rfv ~/.mcreator/
+   sudo rm -rfv /opt/mcreator/
    ```
