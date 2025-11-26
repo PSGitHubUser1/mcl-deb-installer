@@ -31,3 +31,10 @@
    sudo rm -rfv ~/.mcreator/
    sudo rm -rfv /opt/mcreator/
    ```
+2. Run (change the version number):
+   ```
+   rm -rfv mcreator-2025XX # It is a folder
+   ```
+**NOTE: You can install dpkg package on Fedora, Arch Linux too and install MCreator**
+
+---
