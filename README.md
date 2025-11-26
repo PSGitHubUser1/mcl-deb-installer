@@ -29,5 +29,4 @@
    dpkg -r mcreator
    rm -rfv ~/.mcreator/
    rm -rfv /opt/mcreator/
-   
    ```
