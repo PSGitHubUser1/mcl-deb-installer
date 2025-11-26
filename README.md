@@ -7,6 +7,7 @@
 2. wget
 3. libgtk-3-0
 4. openjdk-21-jdk
+5. dpkg
 
 #### **NOTE:** You can install from Releases page, directly the .deb installer. 
 
@@ -18,7 +19,7 @@
    chmod +x build.sh
    ./build.sh
    ```
-4. This will give output mcreator_2025XXX_amd64.deb, now you need a package `dpkg` and those #Dependencies too.
+4. This will give output mcreator_2025XXX_amd64.deb in same folder
 5. After that, run:
    ```
    sudo dpkg -i --force-depends mcreator_2025XX_amd64.deb
