@@ -15,13 +15,13 @@
 1. Download the Linux Tarball from mcreator.net (eg. Mcreator-xyz.tar.xz)
 2. Put the .tar.gz file in this folder
 3. Run: 
-   ```
+   ```sh
    chmod +x build.sh
    ./build.sh
    ```
 4. This will give output mcreator_2025XXX_amd64.deb in same folder
 5. After that, run:
-   ```
+   ```sh
    sudo dpkg -i --force-depends mcreator_2025XX_amd64.deb
    ```
 ## Uninstall
