@@ -26,14 +26,11 @@
    ```
 ## Uninstall
 1. Run:
-   ```
+   ```sh
    sudo dpkg -r mcreator
    sudo rm -rfv ~/.mcreator/
    sudo rm -rfv /opt/mcreator/
-   ```
-2. Run (change the version number):
-   ```
-   rm -rfv mcreator-2025XX # It is a folder
+   sudo rm -rfv mcreator-2025XX  # It is a folder, (Change the version number)
    ```
 (TO CONVERT FROM .TAR.XZ TO .RPM, USE rpm-org on Arch Linux) 
 
