@@ -35,6 +35,7 @@
    ```
    rm -rfv mcreator-2025XX # It is a folder
    ```
-**NOTE: You can install dpkg package on Fedora, Arch Linux too and install MCreator**
+(TO CONVERT FROM .TAR.XZ TO .RPM, USE rpm-org on Arch Linux) 
 
 ---
+
