@@ -23,3 +23,11 @@
    ```
    sudo dpkg -i --force-depends mcreator_2025XX_amd64.deb
    ```
+## Uninstall
+1. Run:
+   ```
+   dpkg -r mcreator
+   rm -rfv ~/.mcreator/
+   rm -rfv /opt/mcreator/
+   
+   ```
