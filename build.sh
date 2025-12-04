@@ -12,7 +12,7 @@ fi
 
 # Get Version
 VERSION=$(echo "$TARBALL" | grep -oP '\d{4}\.\d+')
-[ -z "$VERSION" ] && read -p "Enter Version (e.g., 2025.4): " VERSION
+[ -z "$VERSION" ] && read -p "Enter Version (e.g., 2025.4): " $VERSION
 
 # Build
 rm -rf build_area
